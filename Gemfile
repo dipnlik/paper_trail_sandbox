@@ -51,5 +51,5 @@ group :test do
 end
 
 group :development, :test do
-  gem 'spork-rails', :github => 'sporkrb/spork-rails', :ref => '3224f84d8c31fcb0894e9a43f6c3ac67e3aa0d71'
+  gem 'spork-rails', :github => 'sporkrb/spork-rails'
 end
