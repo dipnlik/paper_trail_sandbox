@@ -49,3 +49,7 @@ gem 'paper_trail', '>= 3.0.0.beta1'
 group :test do
   gem 'rspec-rails'
 end
+
+group :development, :test do
+  gem 'spork-rails', :github => 'sporkrb/spork-rails', :ref => '3224f84d8c31fcb0894e9a43f6c3ac67e3aa0d71'
+end
